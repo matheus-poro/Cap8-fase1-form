@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Cavalcante da Silva">
+    <title>Form-matheus cavalcante</title>
+</head>
+
+
+    
+
+<body class="container">
+    <!--Cabeçalho-->
+    <header class="headerprin">
+        <h1>projeto trevaler</h1>
+
+    </header>
+
+
+    
+
+    <section class="conteiner">
+
+        <img src="img/eee.jpg" alt="Carro com bagagens" class="imagem">
+
+        <div class="formulario">
+    <form  class="teste"  action="adicionar nome do script" method="post" id="dados" name="dados">
+        
+        <div class="campo">
+        <fieldset >
+            <legend>dados pessoais</legend>
+            <label for="firstname">primeiro Nome:</label>
+            <input type="text" id="firstname" placeholder="Matheus" autofocus required>
+
+            <label for="lastname">ultimo Nome:</label>
+            <input type="text" id="lastname" placeholder="Da Silva" required>
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" placeholder="+55 11 12345-6789" maxlength="14" minlength="14" required>
+
+            <label for="data">data de nascimento:</label>
+            <input type="date" id="data" placeholder="18/10/2001" maxlength="8" minlength="8"required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" placeholder="123.456.789-00" maxlength="9" minlength="9" required>
+
+            <label for="email">email:</label>
+            <input type="text" id="email" placeholder="seu email@gmail.com" required>
+
+        <div class="button">
+            <input type="submit" value=".Enviar."  name="enviar">
+            <input type="reset" value=".Apagar." name="reset">
+        </div>
+           
+        </fieldset>
+    </div>
+
+    <div class="campo2" >
+        <fieldset >
+            <legend>Destino</legend>
+            <label for=""></label>
+            <h2>Tipo de suíte:</h2>
+            <select id="suite" class="arruma" required>
+              <option value="0">Selecione uma opção</option>
+              <option value="1">Class</option>
+              <option value="2">Premium</option>
+              <option value="3">Master</option>
+            </select>
+
+
+
+            <label for="museus"  class="arruma">Selecione o museu</label>
+             <input list="museus__sp" id="museus" name="museus">
+                <datalist id="museus__sp">
+                <option value="MASP">
+                <option value="MIS">
+                <option value="Japan House">
+                <option value="Museu Catavento">
+                <option value="Museu do Futebol">                    
+                <option value="Pinacoteca de São Paulo">
+                </datalist>
+
+
+        </fieldset>
+    </div>
+    </form>
+</div>
+
+</section>
+
+<footer>
+
+</footer>
+
+
+</body>
+</html>
